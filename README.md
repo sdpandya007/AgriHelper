@@ -56,7 +56,7 @@ Key highlights:
 ### Steps to Set Up
 1. Clone the repository:
    ```bash
-   git clone https://github.com/RanaDarpan/KishanSathi.git
+   git clone https://github.com/SDpandya007/KishanSathi.git
    cd AgriHelper
    ```
 
