@@ -4,9 +4,9 @@ joblib
 requests
 plotly
 deep-translator
+pyaudio
 SpeechRecognition
 groq
 pandas
 scikit-learn
 joblib
-
