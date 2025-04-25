@@ -9,7 +9,6 @@ import plotly.express as px
 import re
 import pickle
 from deep_translator import GoogleTranslator
-import pyaudio
 import speech_recognition as sr
 
 
