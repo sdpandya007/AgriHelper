@@ -655,19 +655,18 @@ elif app_mode_key == "Chatbot":
     if "user_query" not in st.session_state:
         st.session_state.user_query = ""
 
-# Only keep Text Input
-st.session_state.user_query = st.text_input(
-    translate("Your question:", target_lang),
-    st.session_state.user_query
-)
+if input_type == translate("Text Input", target_lang):
+    st.session_state.user_query = st.text_input(translate("Your question:", target_lang), st.session_state.user_query)
 
-    if st.button(translate("Get Answer 🌱", target_lang)):
-        if st.session_state.user_query.strip():
-            with st.spinner(translate("Processing...", target_lang)):
-                response = get_chatbot_response(st.session_state.user_query, target_lang)
-            st.success(f"**{translate('Answer:', target_lang)}** {response}")
-        else:
-            st.warning(translate("Please enter a question", target_lang))
+if st.button(translate("Get Answer 🌱", target_lang)):
+    if st.session_state.user_query.strip():
+        with st.spinner(translate("Processing...", target_lang)):
+            response = get_chatbot_response(st.session_state.user_query, target_lang)
+        st.success(f"**{translate('Answer:', target_lang)}** {response}")
+    else:
+        st.warning(translate("Please enter a question", target_lang))
+
+
 
 # -------------------------------------------------------------------
 # About Page
