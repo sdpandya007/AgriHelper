@@ -1,0 +1,101 @@
+Commodity,State,District,Market,Price (₹/Quintal),Date
+Brinjal,Andhra Pradesh,Chittor,Palamaner,N/A,N/A
+Cabbage,Andhra Pradesh,Chittor,Palamaner,N/A,N/A
+Potato,Andhra Pradesh,Chittor,Palamaner,N/A,N/A
+Tomato,Andhra Pradesh,Chittor,Vayalapadu,N/A,N/A
+Banana,Andhra Pradesh,East Godavari,Ravulapelem,N/A,N/A
+Rice,Andhra Pradesh,Krishna,Tiruvuru,N/A,N/A
+Bitter gourd,Assam,Barpeta,Barpeta Road,N/A,N/A
+Capsicum,Assam,Barpeta,Barpeta Road,N/A,N/A
+Tomato,Assam,Barpeta,Barpeta Road,N/A,N/A
+Cauliflower,Assam,Cachar,Fatakbazar,N/A,N/A
+Cauliflower,Assam,Darrang,Besimari,N/A,N/A
+Pumpkin,Assam,Darrang,Besimari,N/A,N/A
+Bitter gourd,Assam,Goalpara,Sonari,N/A,N/A
+Bottle gourd,Assam,Goalpara,Sonari,N/A,N/A
+Capsicum,Assam,Goalpara,Sonari,N/A,N/A
+Cauliflower,Assam,Goalpara,Sonari,N/A,N/A
+Tomato,Assam,Goalpara,Sonari,N/A,N/A
+Capsicum,Assam,Golaghat,Golaghat,N/A,N/A
+Ginger(Green),Assam,Golaghat,Golaghat,N/A,N/A
+Tomato,Assam,Karbi Anglong,Diphu,N/A,N/A
+Bitter gourd,Assam,Lakhimpur,Kakoi Weekly Market,N/A,N/A
+Ginger(Green),Assam,Lakhimpur,Kakoi Weekly Market,N/A,N/A
+Lemon,Assam,Nalbari,Nalbari,N/A,N/A
+Capsicum,Assam,Sibsagar,Sibsagar,N/A,N/A
+Pumpkin,Assam,Sibsagar,Sibsagar,N/A,N/A
+Tomato,Assam,Sibsagar,Sibsagar,N/A,N/A
+Potato,Bihar,Bhojpur,Aarah,N/A,N/A
+Bottle gourd,Chandigarh,Chandigarh,Chandigarh(Grain/Fruit),N/A,N/A
+Ginger(Green),Chandigarh,Chandigarh,Chandigarh(Grain/Fruit),N/A,N/A
+Paddy(Dhan)(Common),Chattisgarh,Kanker,Bhanupratappur,N/A,N/A
+Muleti,Chattisgarh,Koria,Baikunthpur,N/A,N/A
+Paddy(Dhan)(Common),Chattisgarh,Koria,Manendragarh,N/A,N/A
+Tomato,Chattisgarh,Rajnandgaon,Rajnandgaon,N/A,N/A
+Bhindi(Ladies Finger),Gujarat,Anand,"Anand(Veg,Yard,Anand)",N/A,N/A
+Bottle gourd,Gujarat,Anand,"Anand(Veg,Yard,Anand)",N/A,N/A
+Potato,Gujarat,Anand,"Anand(Veg,Yard,Anand)",N/A,N/A
+Bottle gourd,Gujarat,Anand,Khambhat(Veg Yard Khambhat),N/A,N/A
+Cauliflower,Gujarat,Anand,Khambhat(Veg Yard Khambhat),N/A,N/A
+Green Chilli,Gujarat,Anand,Khambhat(Veg Yard Khambhat),N/A,N/A
+Tomato,Gujarat,Anand,Khambhat(Veg Yard Khambhat),N/A,N/A
+Arhar (Tur/Red Gram)(Whole),Gujarat,Bharuch,Jambusar,N/A,N/A
+Jowar(Sorghum),Gujarat,Bharuch,Jambusar,N/A,N/A
+Wheat,Gujarat,Bharuch,Jambusar,N/A,N/A
+Cotton,Gujarat,Chhota Udaipur,Modasar        ,N/A,N/A
+Surat Beans (Papadi),Gujarat,Gandhinagar,Mansa(Manas Veg Yard),N/A,N/A
+Bengal Gram(Gram)(Whole),Gujarat,Junagarh,Mangrol,N/A,N/A
+Arhar (Tur/Red Gram)(Whole),Gujarat,Narmada,Rajpipla,N/A,N/A
+Bengal Gram(Gram)(Whole),Gujarat,Rajkot,Dhoraji,N/A,N/A
+Groundnut,Gujarat,Rajkot,Dhoraji,N/A,N/A
+Cabbage,Gujarat,Surat,Surat,N/A,N/A
+Capsicum,Gujarat,Surat,Surat,N/A,N/A
+Pointed gourd (Parval),Gujarat,Surat,Surat,N/A,N/A
+Rat Tail Radish (Mogari),Gujarat,Surat,Surat,N/A,N/A
+Surat Beans (Papadi),Gujarat,Surat,Surat,N/A,N/A
+Sweet Potato,Gujarat,Surat,Surat,N/A,N/A
+Chikoos(Sapota),Gujarat,Valsad,Pardi(Ugvada),N/A,N/A
+Cauliflower,Haryana,Ambala,Shahzadpur,N/A,N/A
+Cucumbar(Kheera),Haryana,Ambala,Shahzadpur,N/A,N/A
+Ginger(Green),Haryana,Ambala,Shahzadpur,N/A,N/A
+Potato,Haryana,Ambala,Shahzadpur,N/A,N/A
+Tomato,Haryana,Ambala,Shahzadpur,N/A,N/A
+Banana,Haryana,Gurgaon,Gurgaon,N/A,N/A
+Cabbage,Haryana,Gurgaon,Gurgaon,N/A,N/A
+Carrot,Haryana,Gurgaon,Gurgaon,N/A,N/A
+Onion,Haryana,Gurgaon,Gurgaon,N/A,N/A
+Tomato,Haryana,Gurgaon,Gurgaon,N/A,N/A
+Grapes,Haryana,Hissar,Uklana,N/A,N/A
+Spinach,Haryana,Hissar,Uklana,N/A,N/A
+Banana,Haryana,Jind,Safidon,N/A,N/A
+Onion,Haryana,Jind,Safidon,N/A,N/A
+Potato,Haryana,Jind,Safidon,N/A,N/A
+Tomato,Haryana,Jind,Safidon,N/A,N/A
+Bottle gourd,Haryana,Kurukshetra,Pehowa,N/A,N/A
+Cabbage,Haryana,Kurukshetra,Pehowa,N/A,N/A
+Cabbage,Haryana,Palwal,Hodal,N/A,N/A
+Raddish,Haryana,Palwal,Hodal,N/A,N/A
+Tomato,Haryana,Palwal,Hodal,N/A,N/A
+Brinjal,Haryana,Panchkula,Raipur Rai,N/A,N/A
+Capsicum,Haryana,Panchkula,Raipur Rai,N/A,N/A
+Green Chilli,Haryana,Panchkula,Raipur Rai,N/A,N/A
+Apple,Haryana,Panipat,Panipat,N/A,N/A
+Brinjal,Haryana,Rewari,Kosli,N/A,N/A
+Apple,Haryana,Rohtak,Meham,N/A,N/A
+Potato,Haryana,Rohtak,Meham,N/A,N/A
+Brinjal,Haryana,Sonipat,Ganaur,N/A,N/A
+Carrot,Haryana,Sonipat,Ganaur,N/A,N/A
+Ginger(Green),Haryana,Sonipat,Ganaur,N/A,N/A
+Lemon,Haryana,Sonipat,Ganaur,N/A,N/A
+Methi(Leaves),Haryana,Sonipat,Ganaur,N/A,N/A
+Onion,Haryana,Sonipat,Ganaur,N/A,N/A
+Tinda,Haryana,Sonipat,Ganaur,N/A,N/A
+Mousambi(Sweet Lime),Haryana,Sonipat,Gohana,N/A,N/A
+Banana,Himachal Pradesh,Hamirpur,Hamirpur,N/A,N/A
+Cabbage,Himachal Pradesh,Hamirpur,Hamirpur,N/A,N/A
+Cucumbar(Kheera),Himachal Pradesh,Hamirpur,Hamirpur,N/A,N/A
+Orange,Himachal Pradesh,Hamirpur,Hamirpur,N/A,N/A
+Papaya,Himachal Pradesh,Hamirpur,Hamirpur,N/A,N/A
+Peas Wet,Himachal Pradesh,Hamirpur,Hamirpur,N/A,N/A
+Banana,Himachal Pradesh,Kangra,Kangra(Baijnath),N/A,N/A
+Cabbage,Himachal Pradesh,Kangra,Kangra(Baijnath),N/A,N/A
