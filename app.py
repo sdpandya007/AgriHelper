@@ -646,14 +646,15 @@ elif app_mode_key == "Chatbot":
     """, unsafe_allow_html=True)
 
     # Option to choose input type
-    input_type = st.radio(
-        translate("Choose input type:", target_lang),
-        [translate("Text Input", target_lang)]
-    )
+    # Ask the user to choose input type (define input_type first)
+input_type = st.radio(
+    translate("Choose input type:", target_lang),
+    [translate("Text Input", target_lang)]  # Removed voice input if you're not using it
+)
 
-    # Store user query in session state to persist across interactions
-    if "user_query" not in st.session_state:
-        st.session_state.user_query = ""
+# Now safely use input_type
+if "user_query" not in st.session_state:
+    st.session_state.user_query = ""
 
 if input_type == translate("Text Input", target_lang):
     st.session_state.user_query = st.text_input(translate("Your question:", target_lang), st.session_state.user_query)
