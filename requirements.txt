@@ -5,7 +5,6 @@ requests
 plotly
 deep-translator
 SpeechRecognition
-pyaudio
 groq
 pandas
 scikit-learn
