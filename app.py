@@ -648,29 +648,18 @@ elif app_mode_key == "Chatbot":
     # Option to choose input type
     input_type = st.radio(
         translate("Choose input type:", target_lang),
-        [translate("Text Input", target_lang), translate("Voice Input", target_lang)]
+        [translate("Text Input", target_lang)]
     )
 
     # Store user query in session state to persist across interactions
     if "user_query" not in st.session_state:
-        st.session_state.user_query = ""
+    st.session_state.user_query = ""
 
-    if input_type == translate("Text Input", target_lang):
-        st.session_state.user_query = st.text_input(translate("Your question:", target_lang), st.session_state.user_query)
-    elif input_type == translate("Voice Input", target_lang):
-        audio_file = st.file_uploader(translate("Upload an audio file (.wav)", target_lang), type=["wav"])
-        if audio_file is not None:
-            recognizer = sr.Recognizer()
-            with sr.AudioFile(audio_file) as source:
-                audio = recognizer.record(source)
-                try:
-                    text = recognizer.recognize_google(audio)
-                    st.session_state.user_query = text
-                    st.success(f"{translate('Recognized:', target_lang)} {text}")
-                except sr.UnknownValueError:
-                    st.error(translate("Could not understand audio", target_lang))
-                except sr.RequestError as e:
-                    st.error(translate(f"Speech recognition error: {e}", target_lang))
+# Only keep Text Input
+st.session_state.user_query = st.text_input(
+    translate("Your question:", target_lang),
+    st.session_state.user_query
+)
 
     if st.button(translate("Get Answer 🌱", target_lang)):
         if st.session_state.user_query.strip():
@@ -678,7 +667,7 @@ elif app_mode_key == "Chatbot":
                 response = get_chatbot_response(st.session_state.user_query, target_lang)
             st.success(f"**{translate('Answer:', target_lang)}** {response}")
         else:
-            st.warning(translate("Please enter a question or use voice input", target_lang))
+            st.warning(translate("Please enter a question", target_lang))
 
 # -------------------------------------------------------------------
 # About Page
