@@ -653,24 +653,22 @@ input_type = st.radio(
     )
 
     # Store user query in session state to persist across interactions
-    if "user_query" not in st.session_state:
-        st.session_state.user_query = ""
+if "user_query" not in st.session_state:
+    st.session_state.user_query = ""
 
-    if input_type == translate("Text Input", target_lang):
-        st.session_state.user_query = st.text_input(translate("Your question:", target_lang), st.session_state.user_query)
-    elif input_type == translate("Voice Input", target_lang):
-        if st.button(translate("Start Listening 🎤", target_lang)):
-            st.session_state.user_query = get_voice_input()
+if input_type == translate("Text Input", target_lang):
+    st.session_state.user_query = st.text_input(translate("Your question:", target_lang), st.session_state.user_query)
+elif input_type == translate("Voice Input", target_lang):
+    if st.button(translate("Start Listening 🎤", target_lang)):
+        st.session_state.user_query = get_voice_input()
 
-    if st.button(translate("Get Answer 🌱", target_lang)):
-        if st.session_state.user_query.strip():
-            with st.spinner(translate("Processing...", target_lang)):
-                response = get_chatbot_response(st.session_state.user_query, target_lang)
-            st.success(f"**{translate('Answer:', target_lang)}** {response}")
-        else:
-            st.warning(translate("Please enter a question or use voice input", target_lang))
-
-
+if st.button(translate("Get Answer 🌱", target_lang)):
+    if st.session_state.user_query.strip():
+        with st.spinner(translate("Processing...", target_lang)):
+            response = get_chatbot_response(st.session_state.user_query, target_lang)
+        st.success(f"**{translate('Answer:', target_lang)}** {response}")
+    else:
+        st.warning(translate("Please enter a question or use voice input", target_lang))
 
 
 # -------------------------------------------------------------------
