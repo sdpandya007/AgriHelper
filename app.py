@@ -10,7 +10,6 @@ import re
 import pickle
 from deep_translator import GoogleTranslator
 import speech_recognition as sr
-
 # Load models
 crop_model = joblib.load('data/trained_crop_model.pkl')
 fertilizer_model = joblib.load('data/trained_fertilizer_model.pkl')
