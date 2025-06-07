@@ -20,7 +20,7 @@ WEATHER_API_KEY = "77d2f53d912c472b89b170125252102"
 WEATHER_BASE_URL = "http://api.weatherapi.com/v1/forecast.json"
 
 # Initialize Groq client
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY is not set in environment variables")
 client = Groq(api_key=GROQ_API_KEY)
