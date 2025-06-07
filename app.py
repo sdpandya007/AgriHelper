@@ -10,7 +10,6 @@ import re
 import pickle
 from deep_translator import GoogleTranslator
 import speech_recognition as sr
-import pyaudio
 
 # Load models
 crop_model = joblib.load('data/trained_crop_model.pkl')
