@@ -9,4 +9,3 @@ groq
 pandas
 scikit-learn
 joblib
-pyaudio
