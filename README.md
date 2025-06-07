@@ -109,7 +109,7 @@ The platform dynamically translates content and speaks responses in the selected
 
 Try out the live demo of AgriHelper by visiting the link below:
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://kishansathi-tmjysmmb3auhszjssi2irw.streamlit.app/) <!-- Replace with your actual demo URL -->
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://agriapper-ejmnruipxlcoexpfik2mku.streamlit.app/) <!-- Replace with your actual demo URL -->
 
 This demo provides a fully functional version of AgriHelper hosted online. You can interact with the app directly in your browser without needing to install anything locally.
 
@@ -118,6 +118,6 @@ This demo provides a fully functional version of AgriHelper hosted online. You c
 ## 🙏 Acknowledgments
 
 - **Streamlit**: For providing an amazing framework to build interactive web apps.
-- **pyttsx3**: For offline text-to-speech functionality.
+- **pyttsx3**: For offline text functionality.
 
 ---
