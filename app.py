@@ -653,7 +653,7 @@ elif app_mode_key == "Chatbot":
 
     # Store user query in session state to persist across interactions
     if "user_query" not in st.session_state:
-    st.session_state.user_query = ""
+        st.session_state.user_query = ""
 
 # Only keep Text Input
 st.session_state.user_query = st.text_input(
