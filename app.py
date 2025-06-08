@@ -130,7 +130,7 @@ if app_mode_key == "HomeAs":
     <div style="background-color:#f0f8ff;padding:20px;border-radius:10px;margin-bottom:20px;">
         <h1 style="color:#333;text-align:center;">{translate('Welcome to Kishan Sathi 🌱', target_lang)}</h1>
         <p style="font-size:18px;color:#555;text-align:center;">
-            {translate('Your one-stop solution for smart farming. Explore features like crop recommendations, fertilizer suggestions, weather forecasts, government schemes, and AI-powered farming advice.', target_lang)}
+            {translate('Your one-stop solution for smart farming. Explore features like crop recommendations, fertilizer suggestions, weather forecasts, government schemes, AI-powered farming advice and Pest & Disease Control.', target_lang)}
         </p>
     </div>
     """, unsafe_allow_html=True)
