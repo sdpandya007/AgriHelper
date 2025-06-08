@@ -23,8 +23,7 @@ AgriHelper is an AI-powered farming assistant that helps farmers make informed d
 Key highlights:
 - **Data-driven recommendations**: Get personalized suggestions based on real-time data.
 - **AI Chatbot**: Interact with an intelligent chatbot for instant answers in multiple languages.
-- **Multilingual Support**: Available in English, Hindi, and Gujarati.
-- **Voice Input & Output**: Speak your queries and hear responses for a seamless experience.
+- **Multilanguage Support**: Available in English, Hindi, and Gujarati.
 
 ---
 
@@ -35,15 +34,13 @@ Key highlights:
 - **Fertilizer Suggestions**: Personalized advice on fertilizer usage.
 - **Weather Forecasts**: Real-time weather updates for better planning.
 - **Government Schemes**: Information on available government programs and subsidies.
-- **Pest Control**: Tips and strategies for effective pest management.
+- **Pest & Disease Control**: Tips and strategies for effective pest management & Identify Disease in crop & Control it.
 - **Loan & Subsidy Calculator**: Tools to calculate loan repayments and subsidy eligibility.
 - **Market Price Insights**: Stay updated with current market prices.
 
 ### Additional Features
-- **AI-Powered Chatbot**: Ask questions and get instant answers in text or voice format.
-- **Multilingual Support**: Responses available in English, Hindi, and Gujarati.
-- **Voice Input & Output**: Use voice commands for hands-free interaction.
-
+- **AI-Powered Chatbot**: Ask questions and get instant answers in text format.
+- **Multilanguage Support**: Responses available in English, Hindi, and Gujarati.
 ---
 
 ## 💻 Installation
