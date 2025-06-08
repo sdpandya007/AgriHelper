@@ -695,7 +695,7 @@ elif app_mode_key == "PestDisease":
 
             st.subheader(translate("Diagnosis Report", target_lang))
             if image:
-                st.image(image, caption=translate("Uploaded Crop Image", target_lang), use_column_width=True)
+                st.image(image, caption=translate("Uploaded Crop Image", target_lang), use_container_width=True)
             st.markdown(f"<div style='background:#fff;padding:15px;border-radius:10px;color:#333;'>{response}</div>", unsafe_allow_html=True)
 # -------------------------------------------------------------------
 # About Page
