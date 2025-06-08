@@ -79,8 +79,10 @@ feature_options = {
     "Chatbot": "Chatbot Support",
     "MarketPrices": "Market Price Insights",
     "LoanCalculator": "Loan & Subsidy Calculator",
+    "PestDisease": "Pest & Disease Control",  # 👈 Add this line
     "About": "About"
 }
+
 translated_features = {k: translate(v, target_lang) for k, v in feature_options.items()}
 app_mode = st.sidebar.selectbox(
     translate("Choose a feature", target_lang),
@@ -660,7 +662,41 @@ elif app_mode_key == "Chatbot":
             st.success(f"**{translate('Answer:', target_lang)}** {response}")
         else:
             st.warning(translate("Please enter a question", target_lang))
+# -------------------------------------------------------------------
+# Pest & Disease Control
+# -------------------------------------------------------------------
+elif app_mode_key == "PestDisease":
+    st.markdown(f"""
+    <div style="background-color:#f8d7da;padding:15px;border-radius:10px;margin-bottom:20px;">
+        <h2 style="color:#721c24;">{translate('Pest & Disease Control 🐛', target_lang)}</h2>
+        <p style="color:#721c24;">{translate('Get advice on identifying and managing crop pests and diseases.', target_lang)}</p>
+    </div>
+    """, unsafe_allow_html=True)
 
+    crop_name = st.text_input(translate("Enter crop name", target_lang))
+    issue_description = st.text_area(translate("Describe symptoms or issue", target_lang))
+    image = st.file_uploader(translate("Upload an image of the crop issue (optional)", target_lang), type=["jpg", "jpeg", "png"])
+
+    if st.button(translate("Diagnose Issue 🔍", target_lang)):
+        if not crop_name or not issue_description:
+            st.warning(translate("Please provide both crop name and issue description", target_lang))
+        else:
+            prompt = (
+                f"You are an expert in agricultural pest and disease diagnosis. A farmer reports an issue in their {crop_name} crop. "
+                f"Symptoms: {issue_description}. "
+            )
+            if image:
+                prompt += "They have also shared an image showing the affected crop. Analyze it if possible. "
+
+            prompt += "Provide the most probable pest or disease, how to confirm it, and suggest both organic and chemical control methods."
+
+            with st.spinner(translate("Analyzing issue...", target_lang)):
+                response = get_chatbot_response(prompt, target_lang)
+
+            st.subheader(translate("Diagnosis Report", target_lang))
+            if image:
+                st.image(image, caption=translate("Uploaded Crop Image", target_lang), use_column_width=True)
+            st.markdown(f"<div style='background:#fff;padding:15px;border-radius:10px;color:#333;'>{response}</div>", unsafe_allow_html=True)
 # -------------------------------------------------------------------
 # About Page
 # -------------------------------------------------------------------
@@ -752,6 +788,7 @@ elif app_mode_key == "About":
         "💬 " + translate("AI-powered chatbot support", target_lang),
         "💰 " + translate("Loan & subsidy calculator", target_lang),
         "📊 " + translate("Market price insights", target_lang),
+        "🐛 " + translate("Pest & disease control guidance", target_lang),
     ]
 
     for feature in features:
