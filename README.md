@@ -56,18 +56,23 @@ Key highlights:
    git clone https://github.com/RanaDarpan/KishanSathi.git
    cd AgriHelper
    ```
-
-2. Install dependencies:
+2. create virtual environment in folder's cmd:
+```bash
+python -m venv myenv
+```
+4. Activate the virtual environment:
+```bash
+myenv\Scripts\activate
+``` 
+4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-
-3. Run the application:
+5. Run the application:
    ```bash
    streamlit run app.py
    ```
-
-4. Open your browser and navigate to `http://localhost:8501` to access the app.
+6. Open your browser and navigate to `http://localhost:8501` to access the app.
 
 ---
 
