@@ -64,15 +64,15 @@ python -m venv myenv
 ```bash
 myenv\Scripts\activate
 ``` 
-4. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-5. Run the application:
-   ```bash
-   streamlit run app.py
-   ```
-6. Open your browser and navigate to `http://localhost:8501` to access the app.
+5. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+6. Run the application:
+```bash
+streamlit run app.py
+```
+7. Open your browser and navigate to `http://localhost:8501` to access the app.
 
 ---
 
