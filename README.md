@@ -56,7 +56,7 @@ Key highlights:
    git clone https://github.com/sdpandya007/AgriHelper.git
    cd AgriHelper
    ```
-2. create virtual environment in folder's cmd:
+2. Create virtual environment in folder's cmd:
    ```bash
    python -m venv myenv
    ```
