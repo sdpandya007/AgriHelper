@@ -60,19 +60,19 @@ Key highlights:
 ```bash
 python -m venv myenv
 ```
-4. Activate the virtual environment:
+3. Activate the virtual environment:
 ```bash
 myenv\Scripts\activate
 ``` 
-5. Install dependencies:
+4. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-6. Run the application:
+5. Run the application:
 ```bash
 streamlit run app.py
 ```
-7. Open your browser and navigate to `http://localhost:8501` to access the app.
+6. Open your browser and navigate to `http://localhost:8501` to access the app.
 
 ---
 
