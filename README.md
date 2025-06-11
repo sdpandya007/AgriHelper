@@ -57,21 +57,21 @@ Key highlights:
    cd AgriHelper
    ```
 2. create virtual environment in folder's cmd:
-```bash
-python -m venv myenv
-```
+   ```bash
+   python -m venv myenv
+   ```
 3. Activate the virtual environment:
-```bash
-myenv\Scripts\activate
-``` 
+   ```bash
+   myenv\Scripts\activate
+   ``` 
 4. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 5. Run the application:
-```bash
-streamlit run app.py
-```
+   ```bash
+   streamlit run app.py
+   ```
 6. Open your browser and navigate to `http://localhost:8501` to access the app.
 
 ---
